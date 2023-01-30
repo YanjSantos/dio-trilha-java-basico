@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) {
 
-        Scanner sc =  new Scanner(System.in).useLocale(Locale.US);
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
         String agencia;
         agencia = " ";
@@ -19,12 +19,8 @@ public class ContaTerminal {
         numeroConta = sc.nextInt();
 
         System.out.println("Olá " + nomeCliente + " ! " + "Obrigado por criar uma conta em nosso banco. Sua agência é a " + agencia + "," + "sua conta é a "
-                + numeroConta + " " + "e seu saldo atual é " + saldo + " , " + "já disponível para saque!" );
+                + numeroConta + " " + "e seu saldo atual é " + saldo + " , " + "já disponível para saque!");
 
         System.out.println("Fim");
-
-
-
-
     }
 }
