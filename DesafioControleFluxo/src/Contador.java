@@ -1,3 +1,4 @@
+package Teste;
 
 import java.util.Scanner;
 
@@ -24,7 +25,7 @@ public class Contador {
     static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
         //validar se parametroUm é MAIOR que parametroDois e lançar a exceção
         if(parametroUm > parametroDois){
-            throw new ParametrosInvalidosException ( );
+            throw new ParametrosInvalidosException( );
         }else {
             int contagem = parametroDois - parametroUm;
 
